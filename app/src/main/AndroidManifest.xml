@@ -22,9 +22,6 @@
             android:name=".CustomizationActivity"
             android:exported="false" />
         <activity
-            android:name=".NewTaskActivity"
-            android:exported="false" />
-        <activity
             android:name=".HomeNavActivity"
             android:exported="false" />
         <activity
