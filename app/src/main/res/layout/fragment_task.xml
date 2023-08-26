@@ -10,6 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fabNewTask2"
             android:layout_width="wrap_content"
@@ -30,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:contentDescription="@null"
             android:fontFamily="serif"
             android:text="@string/task_incomplete"
@@ -50,36 +60,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView3"
-            android:layout_width="380dp"
-            android:layout_height="70dp"
-            android:layout_marginTop="20dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp"
-            app:cardPreventCornerOverlap="true"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.516"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8">
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView4"
-            android:layout_width="380dp"
-            android:layout_height="70dp"
-            android:layout_marginTop="20dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp"
-            app:cardPreventCornerOverlap="true"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.516"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardView3">
-
-        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/textView5"
@@ -103,7 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:contentDescription="@null"
             android:fontFamily="serif"
             android:text="@string/task_complete"
@@ -125,33 +105,15 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView5"
             app:layout_constraintVertical_bias="0.5" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView2"
-            android:layout_width="380dp"
-            android:layout_height="70dp"
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
             android:layout_marginTop="20dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp"
-            app:cardPreventCornerOverlap="true"
+            android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7">
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView5"
-            android:layout_width="380dp"
-            android:layout_height="70dp"
-            android:layout_marginTop="20dp"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="10dp"
-            app:cardPreventCornerOverlap="true"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

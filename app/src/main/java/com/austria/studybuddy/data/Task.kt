@@ -6,4 +6,5 @@ class Task(
     val subject: String,
     val category: String,
     val details: String,
+    val priority: String,
 )

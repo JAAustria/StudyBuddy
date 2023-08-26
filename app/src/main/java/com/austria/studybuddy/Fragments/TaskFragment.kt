@@ -37,5 +37,7 @@ class TaskFragment : Fragment(), OnTaskAddListener {
     override fun onTaskAdded() {
         TODO("Not yet implemented")
     }
+
+
 }
 

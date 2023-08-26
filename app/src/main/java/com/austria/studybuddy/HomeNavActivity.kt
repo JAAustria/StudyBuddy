@@ -42,4 +42,5 @@ class HomeNavActivity : AppCompatActivity() {
         fragmentTransaction.replace(R.id.frameLayout,fragment)
         fragmentTransaction.commit()
     }
+
 }
