@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.widget.Button
 import com.austria.studybuddy.databinding.DialogNewTaskBinding
 
 class NewTaskDialog(

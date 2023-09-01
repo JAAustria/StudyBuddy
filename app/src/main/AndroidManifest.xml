@@ -19,7 +19,7 @@
             android:name=".ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".CustomizationActivity"
+            android:name=".data.ProfileActivity"
             android:exported="false" />
         <activity
             android:name=".HomeNavActivity"

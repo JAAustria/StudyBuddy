@@ -67,7 +67,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:fontFamily="serif"
-            android:rotationX="25"
             android:shadowColor="@color/black"
             android:shadowRadius=".1"
             android:text="@string/task_task"
